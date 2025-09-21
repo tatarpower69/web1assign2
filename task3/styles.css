@@ -1,0 +1,33 @@
+/* task3/styles.css */
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px auto;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+th { background: #002244; color: white; }
+tr:nth-child(even) { background: #f9f9f9; }
+.highlight { background: #ffd700; }
+
+form {
+  background: #f5f5f5;
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+label { font-weight: bold; display: block; margin-bottom: 5px; }
+input, textarea, select { width: 100%; margin-bottom: 10px; padding: 5px; }
+button {
+  background: #002244;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+button:hover { background: #0055aa; }
